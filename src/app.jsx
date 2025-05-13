@@ -1,4 +1,4 @@
-import React, { useEffect, UseState } from 'react'
+import React, { useEffect, useState } from 'react'
 import store from './store.js'
 import { fetchPeople } from './action.js'
 import PeopleList from './components/PeopleList.jsx'
